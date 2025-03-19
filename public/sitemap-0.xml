@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://www.weperch.live/overview</loc><lastmod>2025-03-19T18:37:57.904Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.weperch.live/auth/signin</loc><lastmod>2025-03-19T18:37:57.905Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.weperch.live/pricing</loc><lastmod>2025-03-19T18:37:57.905Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.weperch.live/products</loc><lastmod>2025-03-19T18:37:57.905Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.weperch.live/blog</loc><lastmod>2025-03-19T18:37:57.905Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.weperch.live/error</loc><lastmod>2025-03-19T18:37:57.905Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.weperch.live/support</loc><lastmod>2025-03-19T18:37:57.905Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.weperch.live/about</loc><lastmod>2025-03-19T18:37:57.905Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.weperch.live</loc><lastmod>2025-03-19T18:37:57.906Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.weperch.live/blog/team-details</loc><lastmod>2025-03-19T18:37:57.906Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.weperch.live/auth/signup</loc><lastmod>2025-03-19T18:37:57.906Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+</urlset>
