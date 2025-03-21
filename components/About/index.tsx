@@ -71,7 +71,7 @@ const About = () => {
                 </span>
               </h2>
               <p>
-                At Weperch Technologies, we harness innovative technology and industry expertise to develop bespoke software and commerce platforms that drive business success. Our dedicated team works closely with clients to turn visionary ideas into scalable, secure, and intuitive digital solutions.
+                We harness innovative technology and industry expertise to develop bespoke software and commerce platforms that drive business success. Our dedicated team works closely with clients to turn visionary ideas into scalable, secure, and intuitive digital solutions.
               </p>
 
               <div className="mt-7.5 flex items-center gap-5">

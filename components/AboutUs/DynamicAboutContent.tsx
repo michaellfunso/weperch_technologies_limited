@@ -12,7 +12,7 @@ const DynamicAboutContent = () => {
           <div className="animate_top mx-auto blog-details blog-details-docs shadow-three dark:bg-gray-dark rounded-sm bg-white px-8 py-11 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
             
             <p className="text-body-color dark:text-body-color-dark text-base">
-              We transform business challenges into digital opportunities. Founded with a vision to empower companies in today’s dynamic marketplace, we specialize in crafting bespoke digital solutions and commerce platforms that drive operational efficiency and foster sustainable growth.
+             Founded with a vision to empower companies in today’s dynamic marketplace, we specialize in crafting bespoke digital solutions and commerce platforms that drive operational efficiency and foster sustainable growth.
             </p>
             <p className="text-body-color dark:text-body-color-dark text-base">
               Our agile team blends global insights with local expertise, ensuring that every project is uniquely tailored to meet our clients’ needs. By leveraging cutting-edge technologies and best practices, we develop secure, scalable, and intuitive software solutions that not only streamline operations but also elevate customer experiences.
