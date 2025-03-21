@@ -9,10 +9,12 @@ import { useForm, ValidationError } from '@formspree/react';
 
 const messages = [
   "Innovative Software Solutions",
-  "Scalable Commerce Platforms",
+   "Reliable Software Architecture",
   "Custom Enterprise Development",
-  "Cost-Effective Solutions",
-  "Reliable Software Architecture"
+  "Streamlined Business Processes Made Easy!",
+  "Scalable Commerce Solutions",
+  "Cost-Effective Development",
+  "Reliable Team!"
 ];
 
 const AnimatedText = () => {
