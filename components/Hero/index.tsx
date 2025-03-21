@@ -10,18 +10,20 @@ import { useForm, ValidationError } from '@formspree/react';
 const messages = [
   "Innovative Software Solutions",
   "Scalable Commerce Platforms",
-  "Custom Enterprise Development"
+  "Custom Enterprise Development",
+  "Cost-Effective Solutions",
+  "Reliable Software Architecture"
 ];
 
 const AnimatedText = () => {
   const [index, setIndex] = useState(0);
   const [show, setShow] = useState(false);
 
-  // Delay the initial appearance of the text by 2 seconds
+  // Delay the initial appearance of the text by 7 seconds
   useEffect(() => {
     const timer = setTimeout(() => {
       setShow(true);
-    }, 2000);
+    }, 7000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -29,7 +31,7 @@ const AnimatedText = () => {
     if (show) {
       const interval = setInterval(() => {
         setIndex((prev) => (prev + 1) % messages.length);
-      }, 5000); // Cycle every 5 seconds after the text has appeared
+      }, 6000); // Cycle every 6 seconds after the text has appeared
       return () => clearInterval(interval);
     }
   }, [show]);
