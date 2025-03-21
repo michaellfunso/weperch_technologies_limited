@@ -26,19 +26,19 @@ const Footer = () => {
                 whileInView="visible"
                 transition={{ duration: 1, delay: 0.5 }}
                 viewport={{ once: true }}
-                className="animate_top w-1/2 lg:w-1/4"
+                className="animate_top w-100 lg:w-1/4"
               >
                 <a href="/" className="relative">
                   <Image
-                    width={110}
-                    height={80}
+                    width={80}
+                    height={50}
                     src="/images/logo/logo-light.svg"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
-                    width={110}
-                    height={80}
+                    width={80}
+                    height={50}
                     src="/images/logo/logo-dark.svg"
                     alt="Logo"
                     className="hidden dark:block"

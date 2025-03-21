@@ -9,8 +9,8 @@ const DynamicAboutContent = () => {
     switch (selectedSection) {
       case "about":
         return (
-          <div className="blog-details blog-details-docs shadow-three dark:bg-gray-dark rounded-sm bg-white px-8 py-11 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
-            <h1>About Weperch Technologies Limited</h1>
+          <div className="animate_top mx-auto blog-details blog-details-docs shadow-three dark:bg-gray-dark rounded-sm bg-white px-8 py-11 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
+            
             <p className="text-body-color dark:text-body-color-dark text-base">
               At Weperch Technologies Limited, we transform business challenges into digital opportunities. Founded with a vision to empower companies in today’s dynamic marketplace, we specialize in crafting bespoke digital solutions and commerce platforms that drive operational efficiency and foster sustainable growth.
             </p>
@@ -56,7 +56,7 @@ const DynamicAboutContent = () => {
 
   return (
     <>
-      <div className="mb-8">
+      <div className="mb-8 animate_top mx-auto">
         {/* You can create buttons or links here to update the section */}
         <button
           onClick={() => setSelectedSection("about")}

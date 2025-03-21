@@ -11,7 +11,7 @@ const BlogData: Blog[] = [
   {
     _id: 2,
     mainImage: "/images/blog/blog-02.png",
-    title: "Michael A. Funso - Executive Director & Co-Founder",
+    title: "Michael A. Olufunsho - Executive Director & Co-Founder",
     metadata:
       "Based in Lagos, Michael leads our strategic vision and business development, combining local expertise with international best practices to propel Weperch forward.",
   },

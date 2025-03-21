@@ -38,20 +38,37 @@ const Header = () => {
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
-            <Image
-              src="/images/logo/logo-dark.svg"
-              alt="logo"
-              width={119.03}
-              height={30}
-              className="hidden w-full dark:block"
-            />
-            <Image
-              src="/images/logo/logo-light.svg"
-              alt="logo"
-              width={119.03}
-              height={30}
-              className="w-full dark:hidden"
-            />
+          {
+            !stickyMenu ?<> <Image
+            src="/images/logo/first.svg"
+            alt="logo"
+            width={119.03}
+            height={30}
+            className="hidden w-full dark:block"
+          />
+           <Image
+          src="/images/logo/first.svg"
+          alt="logo"
+          width={119.03}
+          height={30}
+          className="w-full dark:hidden"
+        />
+          </> : <> <Image
+          src="/images/logo/logo-dark.svg"
+          alt="logo"
+          width={119.03}
+          height={30}
+          className="hidden w-full dark:block"
+        />
+        <Image
+          src="/images/logo/logo-light.svg"
+          alt="logo"
+          width={119.03}
+          height={30}
+          className="w-full dark:hidden"
+        /></>
+          }
+            
           </a>
 
           {/* <!-- Hamburger Toggle BTN --> */}
@@ -63,31 +80,31 @@ const Header = () => {
             <span className="relative block h-5.5 w-5.5 cursor-pointer">
               <span className="absolute right-0 block h-full w-full">
                 <span
-                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black delay-[0] duration-200 ease-in-out dark:bg-white ${
+                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-primary delay-[0] duration-200 ease-in-out dark:bg-white ${
                     !navigationOpen ? "!w-full delay-300" : "w-0"
-                  } `}
+                  } ${!stickyMenu ? "bg-primary" : "dark:bg-white"} `}
                 ></span>
                 <span
-                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black delay-150 duration-200 ease-in-out dark:bg-white ${
+                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-primary delay-150 duration-200 ease-in-out dark:bg-white ${
                     !navigationOpen ? "delay-400 !w-full" : "w-0"
-                  }`}
+                  } ${!stickyMenu ? "bg-primary" : "dark:bg-white"}`}
                 ></span>
                 <span
-                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black delay-200 duration-200 ease-in-out dark:bg-white ${
+                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-primary delay-200 duration-200 ease-in-out dark:bg-white ${
                     !navigationOpen ? "!w-full delay-500" : "w-0"
-                  }`}
+                  } ${!stickyMenu ? "bg-primary" : "dark:bg-white"}`}
                 ></span>
               </span>
               <span className="du-block absolute right-0 h-full w-full rotate-45">
                 <span
-                  className={`absolute left-2.5 top-0 block h-full w-0.5 rounded-sm bg-black delay-300 duration-200 ease-in-out dark:bg-white ${
+                  className={`absolute left-2.5 top-0 block h-full w-0.5 rounded-sm bg-primary delay-300 duration-200 ease-in-out dark:bg-white ${
                     !navigationOpen ? "!h-0 delay-[0]" : "h-full"
-                  }`}
+                  } ${!stickyMenu ? "bg-primary" : "dark:bg-white"}`}
                 ></span>
                 <span
-                  className={`delay-400 absolute left-0 top-2.5 block h-0.5 w-full rounded-sm bg-black duration-200 ease-in-out dark:bg-white ${
+                  className={`delay-400 absolute left-0 top-2.5 block h-0.5 w-full rounded-sm bg-primary duration-200 ease-in-out dark:bg-white ${
                     !navigationOpen ? "!h-0 delay-200" : "h-0.5"
-                  }`}
+                  } ${!stickyMenu ? "bg-primary" : "dark:bg-white"}`}
                 ></span>
               </span>
             </span>
@@ -133,13 +150,16 @@ const Header = () => {
                       >
                         {menuItem.submenu.map((item, key) => (
                           <li key={key} className="hover:text-primary">
-                            <Link href={item.path || "#"}>{item.title}</Link>
+                            <Link  aria-label="hamburger Toggler"
+                    onClick={() => setNavigationOpen(!navigationOpen)} href={item.path || "#"}>{item.title}</Link>
                           </li>
                         ))}
                       </ul>
                     </>
                   ) : (
                     <Link
+                    aria-label="hamburger Toggler"
+                    onClick={() => setNavigationOpen(!navigationOpen)}
                       href={`${menuItem.path}`}
                       className={
                         pathUrl === menuItem.path
