@@ -57,7 +57,7 @@ const FunFact = () => {
             <h2 className="mb-4 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
               Trusted by Our Clients.
             </h2>
-            <p className="mx-auto lg:w-11/12">
+            <p className="mx-auto lg:w-11/12 text-white" style={{backgroundColor: 'rgba(1, 8, 41, 0.61)', padding: '1rem', borderRadius: '0.5rem'}}>
               We may be a growing team, but our commitment to excellence is already making a difference in every project we touch.
             </p>
           </motion.div>

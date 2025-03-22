@@ -13,7 +13,7 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "Weperch Technologies Limited",
+  title: "Weperch Technologies Limited | Empowering Businesses through innovative digital solutions that streamline operations and drive sustainable growth.",
 
   // other metadata
   description: "We build integrated software solutions for businesses"

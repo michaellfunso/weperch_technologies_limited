@@ -15,7 +15,7 @@ const Feature = () => {
             headerInfo={{
               title: "Our Services",
               subtitle: "Innovative Digital Solutions for Modern Enterprises",
-              description: `At Weperch, we specialize in crafting custom software and commerce platforms that empower businesses to thrive in the digital era. Our experienced team partners work with you to deliver scalable, secure, and user-centric solutions, ensuring your technology drives growth and operational excellence. Whether you need bespoke enterprise applications or innovative product development, we are dedicated to transforming your vision into impactful digital reality.`,
+              description: `We specialize in crafting custom software and commerce platforms that empower businesses to thrive in the digital era. Our experienced team partners work with you to deliver scalable, secure, and user-centric solutions, ensuring your technology drives growth and operational excellence. Whether you need bespoke enterprise applications or innovative product development, we are dedicated to transforming your vision into impactful digital reality.`,
             }}
           />
           {/* <!-- Section Title End --> */}
