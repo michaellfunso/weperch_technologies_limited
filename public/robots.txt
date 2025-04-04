@@ -1,9 +1,8 @@
-# *
 User-agent: *
 Allow: /
 
-# Host
-Host: https://www.weperch.live
+# Optional: Exclude backend or non-public routes
+Disallow: /api/
+Disallow: /admin/
 
-# Sitemaps
 Sitemap: https://www.weperch.live/sitemap.xml

@@ -12,6 +12,14 @@ import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 
+import Head from 'next/head';
+
+<Head>
+  <title>Home | Weperch Technologies Ltd</title>
+  <meta name="description" content="Software Development Agency - Building Integrated Software Solutions for Businesses" />
+  <link rel="canonical" href="https://www.weperch.live/" />
+</Head>
+
 export const metadata: Metadata = {
   title: "Weperch Technologies Limited | Empowering Businesses through innovative digital solutions that streamline operations and drive sustainable growth.",
 

@@ -36,6 +36,7 @@ const Contact = () => {
               fill
             />
           </div>
+          
 
           <div className="flex flex-col-reverse flex-wrap gap-8 md:flex-row md:flex-nowrap md:justify-between xl:gap-20">
             <motion.div
@@ -56,6 +57,7 @@ const Contact = () => {
               viewport={{ once: true }}
               className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-3/4 xl:p-15"
             >
+             
               <h2 className="mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
                 Send a message
               </h2>
@@ -200,6 +202,7 @@ const Contact = () => {
               </div>
             </motion.div>
           </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6087091769336!2d3.4114723744050353!3d6.444260424080295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ec892502d%3A0x80d9328c7e38d467!2s27%2C%2029%20Biaduo%20St%2C%20Ikoyi%2C%20Lagos%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1743764539653!5m2!1sen!2sng" width="100%" height="450" style={{border:0, marginTop:20, borderRadius:"18px"}}  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </section>
       {/* <!-- ===== Contact End ===== --> */}

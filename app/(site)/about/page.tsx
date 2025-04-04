@@ -3,6 +3,13 @@ import SidebarLink from "@/components/AboutUs/SidebarLink";
 import DynamicAboutContent from "@/components/AboutUs/DynamicAboutContent";
 import { Metadata } from "next";
 import SectionHeader from "@/components/Common/SectionHeader";
+import Head from 'next/head';
+
+<Head>
+  <title>About Us | Weperch Technologies Ltd</title>
+  <meta name="description" content="Software Development Agency - Building Integrated Software Solutions for Businesses" />
+  <link rel="canonical" href="https://www.weperch.live/about" />
+</Head>
 
 export const metadata: Metadata = {
   title: "About Weperch Technologies Limited",

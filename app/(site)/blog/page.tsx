@@ -2,6 +2,13 @@ import BlogData from "@/components/Blog/blogData";
 import BlogItem from "@/components/Blog/BlogItem";
 import SectionHeader from "@/components/Common/SectionHeader";
 import { Metadata } from "next";
+import Head from 'next/head';
+
+<Head>
+  <title>Our Team | Weperch Technologies Ltd</title>
+  <meta name="description" content="Software Development Agency - Building Integrated Software Solutions for Businesses" />
+  <link rel="canonical" href="https://www.weperch.live/blog" />
+</Head>
 
 export const metadata: Metadata = {
   title: "Weperch Team",
