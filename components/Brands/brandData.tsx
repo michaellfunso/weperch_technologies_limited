@@ -29,20 +29,20 @@ const brandData: Brand[] = [
     image: "/images/brand/brand-light-04.svg",
     imageLight: "/images/brand/brand-dark-04.svg",
   },
-  // {
-  //   id: 0.6,
-  //   name: "Client",
-  //   href: "#",
-  //   image: "/images/brand/brand-light-05.svg",
-  //   imageLight: "/images/brand/brand-dark-05.svg",
-  // },
-  // {
-  //   id: 0.7,
-  //   name: "Client",
-  //   href: "#",
-  //   image: "/images/brand/brand-light-06.svg",
-  //   imageLight: "/images/brand/brand-dark-06.svg",
-  // },
+  {
+    id: 0.6,
+    name: "Client",
+    href: "https://kingdomofbelieverscc.web.app/",
+    image: "/images/brand/brand-light-05.svg",
+    imageLight: "/images/brand/brand-dark-05.svg",
+  },
+  {
+    id: 0.7,
+    name: "Client",
+    href: "https://rep-mocha.vercel.app/",
+    image: "/images/brand/brand-light-06.svg",
+    imageLight: "/images/brand/brand-dark-06.svg",
+  },
 ];
 
 export default brandData;
