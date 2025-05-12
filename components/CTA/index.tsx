@@ -32,7 +32,7 @@ const CTA = () => {
               </h2>
               <p>
                 Be among the first to experience Weperch’s innovative beta product,
-                designed to streamline your digital workflow. Your feedback is vital
+                designed to streamline your business or brand's invoice processing workflow, enabling freelancers to process their invoices both localy and internationaly. Your feedback is vital
                 in helping us perfect this cutting-edge solution.
               </p>
             </motion.div>
@@ -62,7 +62,7 @@ const CTA = () => {
                   className="hidden xl:block"
                 />
                 <a
-                  href="https://invoice.weperch.live" target="_blank"
+                  href="https://invox.weperch.live" target="_blank"
                   className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white hover:opacity-90 dark:bg-white dark:text-black"
                 >
                   Join Beta Test

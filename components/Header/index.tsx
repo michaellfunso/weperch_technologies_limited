@@ -186,7 +186,7 @@ const Header = () => {
             </Link> */}
 
             <Link
-              href="https://invoice.weperch.live" target="_blank"
+              href="https://invox.weperch.live" target="_blank"
               className="flex items-center justify-center rounded-full bg-primary px-7.5 py-4.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
             >
               Try Our Most Recent Product 🔥
