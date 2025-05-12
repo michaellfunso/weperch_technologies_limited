@@ -1,6 +1,6 @@
 import React from "react";
 import { ProductTab } from "@/types/productTab";
-import Image from "next/image";
+// import Image from "next/image";
 
 const ProductsTabItem = ({ featureTab }: { featureTab: ProductTab }) => {
   const { title, desc1, desc2, image, imageDark, link } = featureTab;
@@ -38,11 +38,10 @@ const ProductsTabItem = ({ featureTab }: { featureTab: ProductTab }) => {
           
         </div>
         <div className="relative mx-auto hidden aspect-[562/366] max-w-[550px] md:block md:w-1/2 rounded-lg overflow-hidden border border-transparent hover:border-blue-500 transition-colors">
-        <a href={link} target="_blank"><Image src={image} alt={title} fill className="dark:hidden" /></a> 
-         <a href={link} target="_blank"><Image
+        <a href={link} target="_blank"><img src={image} alt={title} className="dark:hidden" /></a> 
+         <a href={link} target="_blank"><img
             src={imageDark}
             alt={title}
-            fill
             className="hidden dark:block"
           /></a>
         </div>
