@@ -5,7 +5,7 @@ const productsTabData: ProductTab[] = [
     id: "tabOne",
     title: "Streamlined Operations",
     desc1:
-      `At Weperch, we understand that managing finances should be as streamlined and efficient as the rest of your business operations. Our Invox Generator is a robust, user-friendly solution designed to automate your invoicing process, reduce manual errors, and enhance your cash flow management.
+      `At Weperch, we understand that managing finances should be as streamlined and efficient as the rest of your business operations. Our Invoice Generator is a robust, user-friendly solution designed to automate your invoicing process, reduce manual errors, and enhance your cash flow management.
 
   Key Features: 
 Customizable Templates: Easily tailor your invoices with your company branding, logos, and specific business details. Create professional-looking documents that reflect your identity.
@@ -28,19 +28,19 @@ Time Savings:
 Automate repetitive tasks and reduce manual data entry, allowing you to focus on strategic business growth.
 
 Enhanced Professionalism:
-Deliver polished, consistent invoxs that boost client confidence and reinforce your brand’s reputation.
+Deliver polished, consistent invoices that boost client confidence and reinforce your brand’s reputation.
 
 Improved Cash Flow:
-Track payments and manage outstanding invoxs more efficiently, helping to optimize your financial operations.
+Track payments and manage outstanding invoices more efficiently, helping to optimize your financial operations.
 
 Scalability:
 Whether you’re a startup or a growing enterprise, our invoice Generator adapts to your evolving business needs.
 
-Discover how Weperch’s invox Generator can transform your invoicing process into a seamless, automated experience—empowering your business with the tools needed for financial efficiency and success.`,
+Discover how Weperch’s invoice Generator can transform your invoicing process into a seamless, automated experience—empowering your business with the tools needed for financial efficiency and success.`,
     link: "https://invox.weperch.live/",
     image: "https://res.cloudinary.com/diml8ljwa/image/upload/v1747061038/Screenshot_166_cehpol.png",
     imageDark: "https://res.cloudinary.com/diml8ljwa/image/upload/v1747061038/Screenshot_166_cehpol.png",
-    
+
   },
   
 ];
