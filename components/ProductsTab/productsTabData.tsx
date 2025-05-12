@@ -40,6 +40,7 @@ Discover how Weperch’s invox Generator can transform your invoicing process in
     link: "https://invox.weperch.live/",
     image: "https://res.cloudinary.com/diml8ljwa/image/upload/v1747061038/Screenshot_166_cehpol.png",
     imageDark: "https://res.cloudinary.com/diml8ljwa/image/upload/v1747061038/Screenshot_166_cehpol.png",
+    
   },
   
 ];
