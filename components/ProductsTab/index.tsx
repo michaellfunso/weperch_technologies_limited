@@ -81,7 +81,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Invox - Streamlined Invoice Generator for Businesses, Brands, & Freelancers. 
+                  Invox - AI-Powered Invoicing: Smart Billing, Faster Payments!
                 </button>
               </div>
             </div>
