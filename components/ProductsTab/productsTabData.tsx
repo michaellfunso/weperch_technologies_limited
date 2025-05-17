@@ -5,7 +5,7 @@ const productsTabData: ProductTab[] = [
     id: "tabOne",
     title: "Streamlined Operations",
     desc1:
-      `At Weperch, we understand that managing finances should be as streamlined and efficient as the rest of your business operations. Our Invoice Generator is a robust, user-friendly solution designed to automate your invoicing process, reduce manual errors, and enhance your cash flow management.
+      `At Weperch, we understand that managing finances should be as streamlined and efficient as the rest of your business operations. Our AI-Powered Invoicing tool is a robust, user-friendly solution designed to automate your invoicing process, reduce manual errors, and enhance your cash flow management.
 
   Key Features: 
 Customizable Templates: Easily tailor your invoices with your company branding, logos, and specific business details. Create professional-looking documents that reflect your identity.
